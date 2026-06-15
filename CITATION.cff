@@ -49,6 +49,11 @@ authors:
     affiliation: CIRES University of Colorado Boulder
   - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
+  - family-names: Dong
+    given-names: Xue
+    orcid: https://orcid.org/0009-0009-8335-558X
+    website: https://github.com/alicexdong
+    affiliation: Colorado State University
   - family-names: Lober
     given-names: Julia R.
     orcid: https://orcid.org/0000-0003-3004-0583
