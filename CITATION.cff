@@ -44,5 +44,10 @@ authors:
     affiliation: NVIDIA
   - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
+  - family-names: Sears
+    given-names: Mya
+    orcid: https://orcid.org/0009-0003-5870-7498
+    website: https://github.com/myasea8
+    affiliation: NSF NCAR EOL
 title: "Cookbook Template"
 abstract: "A sample cookbook description."
