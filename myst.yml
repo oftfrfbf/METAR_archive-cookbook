@@ -3,6 +3,8 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
+  plugins:
+    - https://github.com/developmentseed/myst-anywidget-static-export/releases/latest/download/plugin.mjs
   title: METAR Archive Cookbook
   github: https://github.com/projectpythia/Metar_archive-cookbook
   authors:
@@ -19,11 +21,11 @@ project:
         - file: notebooks/primer.ipynb
     - title: Examples 
       children: 
+        - file: notebooks/local_statistics.ipynb
         - file: notebooks/2_Interactive_Viz.ipynb
+        - file: notebooks/Lonboard_Visualization.ipynb
         - file: notebooks/reanalysis_comparison.ipynb
         - file: notebooks/3_AI_Assistant.ipynb
-        - file: notebooks/Temperature.ipynb
-        - file: notebooks/local_statistics.ipynb
   jupyter:
       binder:
         url: https://binder.projectpythia.org
